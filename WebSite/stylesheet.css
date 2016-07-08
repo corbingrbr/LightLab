@@ -1,0 +1,173 @@
+body {
+    background-color: #282828;
+}
+
+#patternCode {
+    height: 3375px;
+    width: 150px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: white;
+}
+
+/*--------------------------------------------------
+                     TOP BUTTONS
+----------------------------------------------------*/
+
+#buttonContainer {
+    margin: auto;
+    margin-top: 50px;
+    height: 25px;
+    width: 220px;
+    padding: 2px;
+}
+
+#submit {
+    width:100px;
+    height: 30px;
+    float: left;
+}
+
+#resetColors {
+    width: 100px;
+    height: 30px;
+    float: right;
+
+}
+
+#resetColors p {
+    margin: 5px 5px 10px 24px;
+    color: #FFFFFF;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------
+                    TRACK & DELAY BOXES
+-----------------------------------------------------*/
+
+#track {
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    margin:20px 0px 50px 0px;
+    height:300px;               /* 210 */
+    background-color:#474A57;
+    moz-box-shadow:0px 0px 10px #000 inset;
+    webkit-box-shadow:0px 0px 10px #000 inset;
+    box-shadow:0px 0px 10px #000 inset;
+    padding: 10px 0px 0px 10px;
+}
+
+#track_sect_holder {
+    margin: auto;
+    height: 300px;
+    width: 880px;
+}
+
+#ud_box_holder {
+    margin: auto;
+    height: 34px;
+    width: 880px;
+}
+
+.udelay_textbox {
+    type: text/css;
+    width: 41px;
+    size: 5;
+    float: left;
+    margin: 3px;
+}
+
+.track_section {
+    float: left;
+    height: 260px;
+}
+
+.track_box {
+    width: 45px;
+    height: 26px;
+    border-radius: 3px;
+    margin: 4px;
+    border: 1px solid #474A57;
+    background-color: black;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------
+                   TRACK MANIPULATION
+-----------------------------------------------------*/
+
+#track_manipulator_container {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+}
+
+#subtract_columns {
+    float: left;
+    width: 45px;
+    height: 45px;
+    font-size: 30px; 
+}
+
+#add_columns {
+    float: right;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+}
+
+/*---------------------------------------------------
+                   COLOR SELECTOR
+-----------------------------------------------------*/
+   
+#container {
+    width: 605px;
+    height: 82px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+    
+.color_box {
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    float: left;
+    border: 1px solid #474A57;
+    margin: 4px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------
+                  COLORS OF BOXES
+----------------------------------------------------*/
+
+#BLACK         { background-color:#000000; }
+#WHITE         { background-color:#FFFFFF; }
+#RED           { background-color:#AA0000; }
+#GREEN         { background-color:#00FF00; }
+#BLUE          { background-color:#0000FF; }
+#YELLOW        { background-color:#FFFF00; }
+#PURPLE        { background-color:#FF55FF; }
+#CYAN          { background-color:#00FFFF; }
+#PALE_YELLOW   { background-color:#FFFFAA; }
+#MID_BLUE      { background-color:#0055FF; }
+#RED_ORANGE    { background-color:#FF0000; }
+#ORANGE_YELLOW { background-color:#FFAA00; }
+#BANANA        { background-color:#AAFF55; }
+#LIGHT_PURPLE  { background-color:#AA00FF; }
+#LIGHT_BLUE    { background-color:#5500AA; }
+#PALE_PINK     { background-color:#FFAAAA; }
+
+
+
+
+
+
+
